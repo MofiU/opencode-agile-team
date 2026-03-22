@@ -1,5 +1,6 @@
 import { tool } from '@opencode-ai/plugin';
-import type { Sprint, BacklogItem, DailyStandup, Retrospective, SprintReview, Blockers, BacklogItemStatus } from '../types';
+import type { Sprint, BacklogItem, DailyStandup, Retrospective, SprintReview, Blockers } from '../types';
+import { BacklogItemStatus } from '../types';
 import {
   defaultConfig,
   createSprintGoal,
