@@ -1,13 +1,22 @@
 {
   "name": "opencode-agile-team",
   "version": "1.0.0",
-  "description": "OpenCode Agile Team Plugin - DevOps, UI/UX, QA Agents",
+  "description": "OpenCode plugin for agile team management - Sprint, Backlog, Standup, Retro, Review, and Metrics tools",
+  "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "jest"
+    "dev": "tsc --watch"
   },
-  "keywords": ["opencode", "agile", "devops", "uiux", "qa"],
-  "license": "MIT"
+  "keywords": ["opencode", "plugin", "agile", "scrum", "sprint"],
+  "dependencies": {
+    "@opencode-ai/plugin": "^1.2.27",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@tsconfig/node22": "^22.0.0",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.3"
+  }
 }
