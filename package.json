@@ -1,0 +1,13 @@
+{
+  "name": "opencode-agile-team",
+  "version": "1.0.0",
+  "description": "OpenCode Agile Team Plugin - DevOps, UI/UX, QA Agents",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": ["opencode", "agile", "devops", "uiux", "qa"],
+  "license": "MIT"
+}
